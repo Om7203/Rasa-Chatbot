@@ -83,15 +83,7 @@ H - goodbye
 
 ## Implementation of the Request
 
-Basically we checked for the right fit for the persona
-We have one system persona and 3 user persona which was done with the discussion between both the students.
-We have made 6 use cases and we have added that in our use-cases in our wiki although you can find more in the code.
-We have found the technical prerequisites and added in our wiki.
-Example dilogs are there in the the dialog flow in the wiki and you can find more in the wiki.
-A overall dialog flow is created in the dialog flow section in wiki.
-Starting the code you will find different files with names different extensions as yml and python that runs the bot where the data is stored.
-
-## Work done
+## Work 
 
 Om Vaghasiya:
 
@@ -100,14 +92,8 @@ Om Vaghasiya:
 3. Created critical user journeys and documented it.
 4. Created test stories for model.
 5. Created Wiki and added all the data.
-6. Created a system and 3 user personas.(helped each other)
-
-Jenil Kevadiya:
-
-1. Worked on domain, nlu and stories.
-2. Created dialogs and converted it into a flow.
-3. Creted rules for chatbot.
-4. Implemented classes in actions for chatbot to reply accordingly.
-5. Created a system and 3 user personas.(helped each other)
-
-Overall, both helped each other at every step and guided each other and have created this project.
+6. Created a system and 3 user personas.
+7. Created dialogs and converted it into a flow.
+8. Creted rules for chatbot.
+9. Implemented classes in actions for chatbot to reply accordingly.
+10. Created a system and 3 user personas.
