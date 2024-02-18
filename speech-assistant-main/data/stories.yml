@@ -1,0 +1,198 @@
+version: "3.1.0"
+
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - story: sad path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - story: asking about scholarship
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: scholarship
+      - action: utter_scholarship
+      - action: utter_ask_student_or_not
+      - intent: affirm
+      - action: utter_asking_everything_ok
+      - intent: deny
+      - action: utter_deny
+      - intent: mood_unhappy
+      - action: utter_did_that_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking scholarship requirements
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: scholarship_requirements
+      - action: utter_ask_student_or_not
+      - intent: affirm
+      - action: utter_scholarship_requirements
+      - action: utter_check_scholarship_requirements
+      - action: utter_unhappy
+      - intent: mood_unhappy
+      - action: utter_happy
+
+  - story: asking for scholarship program
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: career_service
+      - action: utter_career_service
+      - intent: available_languages
+      - action: utter_language_courses
+      - intent: link_uni_website
+      - action: utter_uni_website
+      - intent: scholarship
+      - action: utter_scholarship
+      - intent: scholarship_requirements
+      - action: utter_scholarship_requirements
+      - action: utter_asking_everything_ok
+      - intent: deny
+      - action: utter_deny
+      - intent: mood_unhappy
+      - action: utter_did_that_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking for job
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: available_job
+      - action: utter_available_job
+      - action: utter_asking_everything_ok
+      - intent: affirm
+      - action: utter_happy
+      - intent: mood_great
+      - action: utter_did_that_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking for volueentry work
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: voluentry_work
+      - action: utter_voluentry_work
+      - action: utter_work
+      - intent: deny
+      - action: utter_unlike
+      - intent: mood_unhappy
+      - action: utter_happy
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: enquiring career service
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: career_service
+      - action: utter_career_service
+
+  - story: available courses
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: available_courses
+      - action: utter_available_courses
+      - action: utter_asking_everything_ok
+      - intent: deny
+      - action: utter_happy
+
+  - story: available languages
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: available_languages
+      - action: utter_language_courses
+      - action: utter_asking_everything_ok
+      - intent: deny
+      - action: utter_deny
+      - intent: mood_unhappy
+      - action: utter_did_that_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: university website
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: link_uni_website
+      - action: utter_uni_website
+      - action: utter_asking_everything_ok
+      - intent: deny
+      - action: utter_deny
+      - intent: mood_unhappy
+      - action: utter_did_that_help
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking to join a club
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: club_selection
+      - action: action_club_selection
+      - action: utter_club_selection
+      - intent: affirm
+      - action: utter_great
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking for accomodation
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: accomodation
+      - action: utter_accomodation
+      - action: utter_asking_everything_ok
+      - intent: affirm
+      - action: utter_great
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: asking how to start a business
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+      - intent: starting_business
+      - action: utter_ask_student_or_not
+      - action: utter_starting_business
+      - intent: deny
+      - action: utter_asking_everything_ok
+      - intent: affirm
+      - action: utter_did_that_help
+      - action: utter_happy
+      - intent: affirm
+      - intent: goodbye
+      - action: utter_goodbye

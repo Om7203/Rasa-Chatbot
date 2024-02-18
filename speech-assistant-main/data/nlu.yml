@@ -1,0 +1,239 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - thank youGood
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - ok
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - It is not helpful
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+      - happy
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: scholarship
+    examples: |
+      - I am looking for a scholarship
+      - Can you tell me about scholarships?
+      - What are scholarships?
+      - How can i get scholarship?
+      - How will i get the funds?
+      - Who can get scholarship?
+      - How does this programme work?
+      - scholarship
+
+  - intent: scholarship_requirements
+    examples: |
+      - What are the requirements for scholarship?
+      - Am i eligible for scholarship?
+      - What are the eligibility criteria?
+      - requirements
+
+  - intent: accomodation
+    examples: |
+      - Can you tell me about accommodation?
+      - What are the accommodation options?
+      - How can i get accommodation?
+      - Can you help me finding home?
+      - How can i get a place to stay?
+      - How will i adjust till that time?
+      - Can you find a place to live?
+      - How will i find a room?
+      - Contact info on accomodation?
+      - accomodation
+
+  - intent: voluentry_work
+    examples: |
+      - Can you tell me about volunteer work?
+      - How can i help others?
+      - How can i reach out to people?
+      - I want to share knowledge?
+      - I am good at helping others?
+      - Contact form
+      - Does DIT have a place for help?
+      - voluentry work
+
+  - intent: starting_business
+    examples: |
+      - How can i start my business?
+      - How to start a start-up?
+      - I need help to start a business?
+      - Is there any place i can start with?
+      - Business
+      - Business information?
+      - Business advice?
+      - Are there events on start-ups?
+      - are there any funding programmes on business?
+      - is there any place i can contact?
+      - start business
+
+  - intent: available_job
+    examples: |
+      - What are the available jobs?
+      - part-time
+      - computer related jobs?
+      - Home office
+      - remote jobs
+      - field related jobs
+      - any jobs
+      - info on jobs
+      - Does DIT have a place to find job?
+      - How to apply?
+      - How can i find a job?
+      - Jobs in DIT?
+      - Is there a form i can fill?
+      - available job
+
+  - intent: career_service
+    examples: |
+      - How do I contact career service?
+      - Contact information of career service?
+      - Email of career service?
+      - career service ?
+      - career service information ?
+      - career service info ?
+      - Does DIT have a career service?
+      - Does DIT have a career service department?
+
+  - intent: available_job
+    examples: |
+      - Are there events for job search?
+      - Do you have DIT online job board?
+      - Are specific page for job search?
+      - Can i give my CV?
+      - Are there any seminars?
+      - Are there any start-ups?
+      - Is there any form for job that i can fill?
+      - available job
+
+  - intent: available_courses
+    examples: |
+      - Which courses are available?
+      - What subjects can I study?
+      - What studies does the university offer?
+      - What are the recommended courses?
+      - What can I study here?
+      - Courses option for me?
+      - courses ?
+      - What courses are available ?
+      - available courses
+
+  - intent: available_languages
+    examples: |
+      - What are the available languages?
+      - What are the different languages available?
+      - What are the language courses?
+      - Is there any language course catalog?
+      - What foreign languages can I find?
+      - What languages can I study here?
+      - available languages ?
+      - language options ?
+
+  - intent: link_uni_website
+    examples: |
+      - What is the link to our university website?
+      - Can I have the link to our university?
+      - How can I reach the university website?
+      - Where can I find the university website?
+      - Does the university website exist?
+      - Steps to reach the university website?
+      - uni website ?
+      - Where can I find the uni website?
+      - Does the uni website exist?
+
+  - intent: club_selection
+    examples: |
+      - What are the available clubs?
+      - Which club should i join?
+      - What are the clubs available?
+      - Are there any events?
+      - What are the university sports?
+      - Whom should i contact?
+      - Are there any club assosiations?
+      - Can you provide more info on clubs?
+      - What are the club options?
+      - Is there any place i can get information?
+      - club selection
